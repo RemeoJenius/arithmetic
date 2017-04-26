@@ -1,0 +1,92 @@
+﻿@charset "utf-8";
+/* banner */
+.banner { width:100%; height:258px; overflow:hidden; zoom:1; position:relative; }
+.banner .item { width:100%; height:258px; position:absolute; top:0; left:0; overflow:hidden; }
+.banner .item-idx-wrap { width:1000px; height:258px; margin:0 auto; *z-index:1; }
+.banner .item-idx { position:absolute; left:40.4%; bottom:12px; z-index:1; }
+.banner .item-idx a { width:18px; height:18px; margin-right:18px; background:url(http://img.233.com/student/images/v6/icon_common.png) no-repeat -148px -199px; _background-position:-148px -198px; display:block; text-indent:-9999px; float:left; }
+.banner .item-idx a.active { background:url(http://img.233.com/student/images/v6/icon_common.png) no-repeat -176px -200px; _background-position:-176px -199px; }
+.banner .item .banner-bg { width:100%; height:258px; text-indent:-9999px;display:block; }
+.banner .item .banner-info-wrap { width: 1000px; height:100%; margin:0 auto; position:relative; }
+
+/* 练习模块 */
+.banner-user-login{ width:292px; height:233px; background:url(../images/right-contbg.png) no-repeat;position:absolute; bottom:258px; right:0px; padding:25px 0 0 100px;}
+.banner-user-login a{ width:72px; height:100px; margin-right:25px; font-size:12px; color:#333; text-align:center;float:left}
+.banner-user-login a.bdrt{}
+.banner-user-login a.bdtp{}
+
+.banner-user-login a .icon{ width:72px; height:82px; background:#000;background:url(../images/index.png) 0 0 no-repeat; float:left}
+.banner-user-login a .icon.danyuan_icon{background-position:0 -100px}
+.banner-user-login a .icon.zhuanxiang_icon{background-position:0 -200px}
+.banner-user-login a .icon.shijuan_icon{background-position:-100px 0}
+.banner-user-login a .icon.chuangguan_icon{background-position:-100px -100px}
+.banner-user-login a .icon.baogao_icon{background-position:-100px -200px}
+
+
+.banner-user-login a:hover .icon{ background-position:0 3px}
+.banner-user-login a:hover .icon.danyuan_icon{background-position:0 -97px}
+.banner-user-login a:hover .icon.zhuanxiang_icon{background-position:0 -197px}
+.banner-user-login a:hover .icon.shijuan_icon{background-position:-100px 3px}
+.banner-user-login a:hover .icon.chuangguan_icon{background-position:-100px -97px}
+.banner-user-login a:hover .icon.baogao_icon{background-position:-100px -197px}
+
+
+.ui-box {margin: 30px auto 0;width: 1000px;}
+h2.title {width:1000px; height:100px;position:relative; background:url(../images/index.png) 0 -517px repeat-x; }
+h2.title .yuan{ width:200px; height:80px;background:url(../images/index.png) 0 -311px no-repeat #fff; position:absolute; margin-left:-119px; left:50%; top:0;font:16px/80px "\5FAE\8F6F\96C5\9ED1"; color:#5ebc1d; padding-left:40px;}
+h2.title .yuan span{ padding-right:10px; color:#fff;font:28px/75px "\5FAE\8F6F\96C5\9ED1";}
+h2.title .yuan.yuan-a{ background-position:10px -170px}
+
+h2.title.cheng{ background-position:0 -607px}
+h2.title.cheng .yuan{background-position:0 -419px;color:#ff841c}
+
+.ui-grid-box { width:100%; }
+.ui-grid-box:after { display:block; visibility:hidden; clear:both; height:0; content:'.'; }
+/* 固定两列 */
+.ui-grid-side { float:left; width:600px; background:#fbfbfb; border:1px solid #eee }
+.ui-grid-main { float:right; width:350px; }
+
+
+/* 上下图文结构 */
+.ui-imgtxt-v{ width:100%;}
+.ui-imgtxt-v dl{ float:left; width:159px; height:175px; padding:20px}
+.ui-imgtxt-v dl:hover{border:1px solid #ff841c; margin:-1px 0 0 -1px;height:174px; background:#fff}
+.ui-imgtxt-v dl:hover img{ margin-top:3px}
+.ui-imgtxt-v dl.bdrt{ border-right:1px solid #eee}
+.ui-imgtxt-v dl.bdrt:hover{ border-right:1px solid #ff841c}
+.ui-imgtxt-v dl.bdtp{ border-top:1px solid #eee}
+.ui-imgtxt-v dl.bdtp:hover{ border-top:1px solid #ff841c}
+.ui-imgtxt-v .ui-tw-pic{ width:127px; height:146px; padding:0 13px 0 9px; overflow:hidden;}
+.ui-imgtxt-v .ui-tw-pic img{width:127px; height:146px;}
+.ui-imgtxt-v .ui-tw-tit,.ui-imgtxt-v .ui-tw-tit a{  width:100%; padding:5px 0px; text-align:center; font:normal 16px/25px "\5FAE\8F6F\96C5\9ED1"; }
+.ui-imgtxt-v dl.small{width:169px; height:75px; padding:20px 15px 20px 15px}
+.ui-imgtxt-v dl.small:hover{margin:0 0 0 -1px;height:74px;}
+.ui-imgtxt-v dl.small .ui-tw-pic{ width:70px; height:70px; padding:0; float:left}
+.ui-imgtxt-v dl.small .ui-tw-pic img{width:70px; height:auto}
+.ui-imgtxt-v dl.small .ui-tw-tit,.ui-imgtxt-v dl.small .ui-tw-tit a{  width:70px; font-size:14px; padding:0px 5px; text-align:left; color:#333;float:left }
+
+
+/*热门推荐 试卷*/
+.retui{background:url(../images/index.png) -235px 0 no-repeat; padding-left:30px;border-bottom:1px solid #ededed; padding-bottom:10px;font:18px/25px "\5FAE\8F6F\96C5\9ED1"!important;}
+ul.shijuan li{padding:10px 0; border-bottom:1px solid #ededed; line-height:26px; *display:inline-block; /*IE7*/}
+ul.shijuan li.nobt{ border-bottom:none; padding-bottom:0}
+ul.shijuan li .dal-but{ height:34px;float:right; margin-top:3px;}
+ul.shijuan li .dal-but a{font-size:12px;margin-left:15px;font:normal 12px/18px "\5b8b\4f53"!important;}
+ul.shijuan li  h3.w250 a{ width:270px; height:21px; display:inline-block;overflow: hidden;font-size: 14px;}
+ul.shijuan li  h3 a:hover,.pracl-dalist li .dal-but a:hover{ color:#e45c40;}
+ul.shijuan li .dal-but a{padding:3px 10px; float:left;}
+ul.shijuan li .dal-but a.zt-go,.ui-table a.zt,.ui-table .czct a.this{padding:7px 15px; background:#f1ffe7; border:1px solid #ceebb9; border-radius:3px; box-shadow:1px  2px 1px #eee; color:#5ebc1d;  }
+ul.shijuan li span .zt-go:hover,.ui-table .zt:hover{ background:#5ebc1d; color:#fff!important; box-shadow:none; border:1px solid #5ebc1d;}
+ul.shijuan li .dal-but a.zt-go.cheng{background:#ffedde; border:1px solid #ffd2ab; color:#ff841c; }
+ul.shijuan li .dal-but a.zt-go.cheng:hover{ background:#ff841c;border:1px solid #ff841c;}
+/*
+ul.shijuan li .dal-but .zt-go,.ui-table .zt,.ui-table .czct .this{ color:#333!important; padding:7px 15px; background:#f1ffe7; border:1px solid #ceebb9; border-radius:3px; box-shadow:1px  2px 1px #eee; }
+ul.shijuan li span .zt-go:hover,.ui-table .zt:hover{ background:#e45c40; color:#fff!important; box-shadow:none; border:1px solid #e45c40;}
+*/
+ul.shijuan li .dal-but .zt-go{padding:5px 15px;}
+ul.shijuan li  p{height:24px; line-height:24px; overflow:hidden;font:normal 12px/22px "\5b8b\4f53"!important;font-size:12px; color:#999;}
+ul.shijuan li  p span{ margin-right:20px;}
+
+
+
+

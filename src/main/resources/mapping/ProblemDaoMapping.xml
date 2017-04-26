@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jenius.web.dao.ProblemDao">
+
+    <select id="getProblemList" resultType="com.jenius.web.mate.Problem">
+        select * from Problem limit #{i},3;
+    </select>
+    <select id="getProblemListPagesNumber" resultType="int">
+        select count(*) from  problem
+    </select>
+
+</mapper>
